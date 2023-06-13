@@ -1,0 +1,41 @@
+:root {
+  //--color
+  --header-color: #31353A;
+  --bg-color: #f5f5f5;
+  --title-bg-color: #353A40;
+  --text-color: hsla(213, 9%, 23%, .5);
+  --text-bg-color: hsla(0, 0%, 100%, .5);
+  --subtitle-color: #F5C473;
+  --accent-color: #3772E1;
+  --bg-button-search: linear-gradient(90deg,           
+                        #61B3F2 0.44%, 
+                        #5566D9 100%);
+  --bg-button-state: #efefef;
+  --text-button-state: #595959;
+  --bg-button-accordion: #3F444A;
+  --arrow-accordion: #696969;
+  --icon-color: #AFB5BD;
+}
+
+.title {
+  font-size: 1.6rem;
+  font-weight: 800;
+  color: var(--title-bg-color);
+  text-transform: capitalize;
+  line-height: 2rem;
+}
+
+.text,
+p {
+  color: var(--text-color);
+  font-size: .935rem;
+  line-height: 1.5rem;
+  font-weight: 400;
+}
+
+.address-title {
+  font-weight: 500;
+  color: var(--accent-color);
+  font-size: .935rem;
+  line-height: 1.2;
+}
